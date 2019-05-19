@@ -11,7 +11,8 @@ class App extends Component {
   }
 
   setUsername = (username) => {
-    
+    //array1.forEach(element => {
+      //if (this.props.username.value === element) { console.log("deneme") }})
     this.setState({ username })
   }
 
@@ -34,8 +35,16 @@ class App extends Component {
 export default App;
 
 
-/*- App
-  - Login
-  - MessagingPanel
-    - DisplayConversation
-    - MessagingBox*/
+
+
+
+
+
+
+/*- uygulama
+  - giris
+  - mesaj panel 
+  - mesaj kutu
+  - mesaj goster
+  */
+    
